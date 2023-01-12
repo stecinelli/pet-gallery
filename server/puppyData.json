@@ -1,0 +1,28 @@
+{
+    "puppies": [
+        {
+            "puppyId": 1,
+            "name": "Baby",
+            "dob": "2021-12-07",
+            "breed": "Golden"
+        },
+        {
+            "puppyId": 2,
+            "name": "Bella",
+            "dob": "2016-03-09",
+            "breed": "Bulldog"
+        },
+        {
+            "puppyId": 3,
+            "name": "Teddy",
+            "dob": "2018-07-23",
+            "breed": "Labrador"
+        },
+        {
+            "puppyId": 4,
+            "name": "Fluffy",
+            "dob": "2008-12-31",
+            "breed": "Husky"
+        }
+    ]
+}

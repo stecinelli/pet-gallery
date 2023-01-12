@@ -1,0 +1,147 @@
+.App{
+ height: 100vh;
+ min-height : 100vh;
+ margin-top: -20px;
+ display: flex;
+ flex-direction: column;
+ background-color: #e7e9ee;
+}
+.Gallery{
+  text-align: center;
+  color: #8AAAE5;
+}
+
+.Gallery > h1 {
+  background-color: #00C1BA;
+  color: white;
+  padding: 30px;
+}
+
+.puppyCard-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap ;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: space-around;
+  gap: 10px 20px;
+  margin: 10px;
+}
+
+.Card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 8px;
+  margin: 3px;
+  border-radius: 8px;
+  background-color: #8AAAE5;
+  color: white;
+  width: 150px;
+  height: 200px;
+}
+
+.Card > p > input {
+  width: 85%;
+}
+
+.addNewPuppy-container{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap ;
+  align-items: baseline;
+  align-content: space-around;
+}
+
+.btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 10px;
+  height: 27px;
+  line-height: 27px;
+  min-width: 25px;
+  padding: 0 6px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
+
+.btn:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  color: #202124;
+}
+
+.btn:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+.add{
+  background-color: #8AAAE5;
+  color: white;
+  font-size: 14px;
+  height: 40px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 0 10px;
+}
+
+.edit{
+  height: 12px;
+  line-height: 12px;
+  min-width: 12px;
+  padding: 0 6px;
+  background-image: url(./Components/icons8-edit-24-1.png);
+  background-size: cover;
+  background-color: #8AAAE5;
+  border: 0px solid #f8f9fa;
+  float: right;
+  }
+
+/* The popup form - hidden by default */
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.open{
+  display: block;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container input[type=text] {
+  width: 85%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.Footer {
+  background-color: #00C1BA;
+  color: white;
+  margin-top: auto;
+  margin-bottom: -20px;
+  text-align: center;
+}

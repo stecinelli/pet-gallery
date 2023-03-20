@@ -1,6 +1,6 @@
 ## Puppies API with Typescript
 
-In this app I created an API with Express and Typescript nad a quick frontend with React and Typescript.
+In this app I created an API with Express and Typescript and a quick frontend with React and Typescript.
 
 <img src="/Screenshot Web 1 - Card Gallery.jpg" alt="Screenshot Web" title="Screenshot Web" width="30%" height="30%"/> &nbsp;<img src="/Screenshot Web - Card Gallery.jpg" alt="Screenshot Web" title="Screenshot Web" width="23%" height="23%"/> &nbsp;<img src="/Screenshot Mobile - Card Gallery.jpg" alt="Screenshot Mobile" title="Screenshot Web" width="10%" height="10%"/> &nbsp;<img src="/Screenshot Mobile 2 - Card Gallery.jpg" alt="Screenshot Mobile" title="Screenshot Web" width="10%" height="10%"/>
 
